@@ -15,7 +15,6 @@ int main() {
 
     printf("Name : ");
     scanf("%s",&a.name);
-    // fgets(a.name, 100, stdin);
 
     for(int i = 0; i < 3; i++){
         printf("Subject %d Marks : ", i + 1);
